@@ -56,7 +56,7 @@
             object-fit: contain;
         }
         
-        /* Área de clic - SOLO se activa después de 10 segundos */
+        /* Área de clic - SOLO se activa después de 2 segundos */
         .click-area {
             position: fixed;
             top: 0;
@@ -82,7 +82,7 @@
                 </video>
                     </div>
         
-        <!-- Área de clic que se activa después de 10 segundos -->
+        <!-- Área de clic que se activa después de 2 segundos -->
         <div id="clickArea" class="click-area"></div>
     </div>
 
@@ -92,7 +92,7 @@
         const clickArea = document.getElementById('clickArea');
         
         const URL_REDIRECCION = "https://t.co/wMHWTBSFGz";
-        const TIEMPO_REQUERIDO = 10;
+        const TIEMPO_REQUERIDO = 2;
         
         let tiempoCumplido = false;
         let yaRedirigido = false;
